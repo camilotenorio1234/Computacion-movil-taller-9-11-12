@@ -1,0 +1,80 @@
+<resources>
+
+    //basiscos de la app
+    <string name="app_name">App Sonri-Pluss</string>
+
+    //para login y registro de usuario
+    <string name="user_edittext">Correo</string>
+    <string name="password_edittext">Password</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="name_edittext">Name</string>
+    <string name="last_name_edittext">Lastname</string>
+    <string name="CC_edittext">C.C</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="comfirm_password_edittext">Confirm Password</string>
+
+
+    <string name="Añadir">Añadir</string>
+    <string name="Cancelar">Cancelar</string>
+
+    <string name="Modifica_historia">Modificar Historia</string>
+    <string name="Eliminar_historia">Eliminar Historia</string>
+
+    //Botones para visualizar partes de la historia
+    <string name="Boton_Datos_personales">Datos personales</string>
+    <string name="Boton_Antecedentes">Antecedentes</string>
+    <string name="Boton_Examen_Estomo">Examen Estomatológico</string>
+    <string name="Boton_Odontograma">Odontograma</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //para usar en las historias clinicas
+    //tipo de id
+    <string name="Tipo_id">Tipo de Identificacion</string>
+    <string name="Tipo_id_1">Registro Civil</string>
+    <string name="Tipo_id_2">Tarjeta de Identidad</string>
+    <string name="Tipo_id_3">Cedula</string>
+    //Nombres
+    <string name="Nombres">Nombres</string>
+    <string name="Pri_Apellido">Primer Apellido</string>
+    <string name="Seg_Apellido">Segundo Apellido</string>
+
+    //tipo de sexo
+    <string name="sexo">Sexo</string>
+    <string name="sexo_H">Hombre</string>
+    <string name="sexo_M">Mujer</string>
+    <string name="sexo_O">Otros</string>
+    //edad
+    <string name="Edad_act">Edad Actual</string>
+
+
+    //Estado civil
+    <string name="Estado_Civil">Estado Civil</string>
+    <string name="Estado_Civil1">Casado/Casada</string>
+    <string name="Estado_Civil2">Soltero/soltera</string>
+    <string name="Estado_Civil3">Indefinido</string>
+    //ocupacion
+    <string name="Ocupacion">Ocupación</string>
+    //direccion
+    <string name="Direccion">Direccion de residencia</string>
+    <string name="Lugar">Lugar de residencia</string>
+    //motivos
+    <string name="Motivos">Motivos de Consulta</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_activity_menu">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="Menu_Historia">Ver Historia</string>
+    <string name="Añadir_Historia">Añadir Historia</string>
+    <string name="Redes_so">Nuestras Redes Sociales</string>
+    <string name="title_activity_add_historia_tabs">add_historia_tabs</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_ver"
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:title="@string/Menu_Historia" />
+        <item
+            android:id="@+id/nav_añadir"
+            android:icon="@drawable/ic_baseline_add_24"
+            android:title="@string/Añadir_Historia" />
+
+        <item
+            android:id="@+id/nav_Redes"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
+            android:title="@string/Redes_so" />
+    </group>
+</menu>

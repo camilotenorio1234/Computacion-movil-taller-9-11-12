@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.proyect_chidos.app_sonripluss_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ver"
+        android:name="com.proyect_chidos.app_sonripluss_app.ui.gallery.GalleryFragment"
+        android:label="@string/Menu_Historia"
+        tools:layout="@layout/fragment_view_historia">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Redes"
+        android:name="com.proyect_chidos.app_sonripluss_app.ui.Redes.RedesFreagment"
+        android:label="@string/Redes_so"
+        tools:layout="@layout/fragment_redes"/>
+    <fragment
+        android:id="@+id/nav_añadir"
+        android:name="com.proyect_chidos.app_sonripluss_app.ui.slideshow.SlideshowFragment"
+        android:label="@string/Añadir_Historia"
+        tools:layout="@layout/fragment_add_historia">
+
+
+        <action
+            android:id="@+id/action_nav_añadir_to_anadir"
+            app:destination="@id/anadir" />
+        <action
+            android:id="@+id/action_nav_añadir_to_antecedentes"
+            app:destination="@id/antecedentes" />
+        <action
+            android:id="@+id/action_nav_añadir_to_odontograma"
+            app:destination="@id/odontograma" />
+        <action
+            android:id="@+id/action_nav_añadir_to_examen_Estama"
+            app:destination="@id/examen_Estama" />
+    </fragment>
+    <activity
+        android:id="@+id/anadir"
+        android:name="com.proyect_chidos.app_sonripluss_app.Botones_historia.Datos_perso"
+        android:label="activity_anadir"
+        tools:layout="@layout/activity_anadir"/>
+    <activity
+        android:id="@+id/antecedentes"
+        android:name="com.proyect_chidos.app_sonripluss_app.ui.slideshow.SlideshowView_main_tabs"
+        android:label="add_history_activity"
+        tools:layout="@layout/add_history_activity" />
+
+    <activity
+        android:id="@+id/examen_Estama"
+        android:name="com.proyect_chidos.app_sonripluss_app.Botones_historia.Examen_Estama"
+        android:label="activity_examen_estama"
+        tools:layout="@layout/activity_examen_estama" />
+    <activity
+        android:id="@+id/odontograma"
+        android:name="com.proyect_chidos.app_sonripluss_app.Botones_historia.Odontograma"
+        android:label="activity_odontograma"
+        tools:layout="@layout/activity_odontograma" />
+
+</navigation>
